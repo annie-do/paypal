@@ -3,4 +3,4 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 def payment(request):
-    return render(request, 'templates\payment.html')
+    return render(request, 'templates/payment.html')
